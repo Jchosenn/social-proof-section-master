@@ -1,0 +1,174 @@
+body {
+  font-family: "League Spartan", sans-serif;
+  background-image: url(images/bg-pattern-top-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.container {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-box {
+  display: flex;
+  align-items: center;
+  padding: 0 0 50px 0;
+}
+.text-content {
+  margin-right: 200px;
+}
+.text-content h1 {
+  width: 400px;
+  font-size: 50px;
+  color: hsl(300, 43%, 22%);
+}
+.text-content p {
+  width: 400px;
+  color: hsl(300, 43%, 22%);
+}
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rates {
+  border-radius: 5px;
+  background-color: hsl(300, 24%, 96%);
+  padding: 15px 40px 15px 20px;
+  margin: 0;
+  font-weight: 700;
+  margin-left: 10px;
+  font-size: 14px;
+}
+span {
+  color: hsl(300, 43%, 22%);
+  margin-left: 20px;
+}
+.first {
+  margin-right: 90px;
+}
+.second {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.third {
+  margin-left: 80px;
+}
+.second-box {
+  display: flex;
+  gap: 30px;
+}
+.smith-box {
+  padding: 30px 30px 40px 30px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.colton {
+  width: 40px;
+  border-radius: 50%;
+}
+.customer h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+}
+.buyer {
+  margin-left: 10px;
+  color: hsl(333, 80%, 57%);
+  font-size: 15px;
+}
+.smith-box p {
+  width: 270px;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.smith {
+  margin-bottom: 40px;
+}
+.Irene {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Anne {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 890px) {
+  .first-box {
+    padding: 0 20px 50px 20px;
+  }
+  .text-content {
+    margin-right: 20px;
+  }
+  .second-box {
+    gap: 10px;
+  }
+  .smith-box {
+    padding: 30px 10px 40px 10px;
+    width: 250px;
+  }
+  .rates {
+    font-size: 13px;
+    padding: 15px 0 15px 20px;
+  }
+  span {
+    margin-left: 10px;
+  }
+  .smith-box p {
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .container {
+    padding: 300px 20px 280px 20px;
+  }
+  .first-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .rates {
+    font-size: 13px;
+    padding: 15px 20px;
+  }
+  .first {
+    margin-right: 0;
+  }
+  .second {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .third {
+    margin-left: 0;
+  }
+  .second-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .smith-box {
+    padding: 30px 10px 40px 20px;
+  }
+  .smith {
+    margin-bottom: 0;
+  }
+  .Irene {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .Anne {
+    margin-top: 0;
+  }
+}
